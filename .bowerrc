@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "postinstall": "rm -rf bower_components/webcomponentsjs bower_components/supersonic/supersonic.js  bower_components/supersonic/supersonic.core.js bower_components/supersonic/supersonic.min.js"
+  }
+}

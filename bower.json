@@ -1,0 +1,9 @@
+{
+  "name": "base-module",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "supersonic": "1.x",
+    "angular": "1.4.14"
+  }
+}

@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="components/supersonic/css/supersonic.css" />
+
+    <script type="text/javascript">
+      window.cordova = window.parent.cordova
+    </script>
+
+    <script src="components/steroids-js/steroids.js"></script>
+    <script src="components/supersonic/supersonic.core.min.js"></script>
+    <script src="components/angular/angular.min.js"></script>
+
+    <script src="module.js"></script>
+    <script src="directive-templates.js"></script>
+    <!-- build:js module.min.js -->
+    <!-- endbuild -->
+
+    <style>
+      /* #container keeps element's margins from overflowing
+       * and causing mis-resizing of modules in apps.
+       * Please don't remove #container!
+       */
+      #container {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Don't remove this #container -->
+    <div id="container" ng-app="BaseModuleApp">
+      <!-- - - Edit body below this line - - -->
+      <alerter></alerter>
+      <!-- - - Edit body above this line - - -->
+    </div>
+  </body>
+</html>
