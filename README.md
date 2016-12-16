@@ -30,6 +30,10 @@ The module development environment is used through `steroids connect`. Run the f
 
 The mobile version of your module will be accessible as a regular Steroids application would be. The Steroids Connect screen has a *module* tab where you can work with the module as it would appear on the web.
 
+## Bower dependencies
+
+If you need to add Bower dependencies to your forked module, please note that the actual files (e.g. `supersonic.js`) used by the module are included individually in the `Gruntfile.coffee` file. This is to keep app size low, because Bower packages have a lot of unncessary files in them, and thus we don't want to copy over the whole `bower_components` folder.
+
 ## Deployment
 
 Deploy your module to make it available for Composer applications:
